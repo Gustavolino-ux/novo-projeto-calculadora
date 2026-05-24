@@ -1,8 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Space Mono" serif;
+    font-family: "Space Mono", serif;
 }
 
 :root{
@@ -17,10 +17,10 @@
     --light-green: #26C2AE;
     --white: #FFFFFF;
     --green-hover: #9FE8DF;
-    --danger: #E17457;
+    --danger: #e17457;
 }
 
-body {
+body{
     background-color: var(--green-200);
 }
 
@@ -42,12 +42,12 @@ main {
     margin-bottom: 2rem;
 }
 
-.conta label,
+.conta label, 
 .gorjeta label,
 .pessoas label {
     color: var(--green-500);
     font-weight: 700;
-}
+} 
 
 .conta div,
 .pessoas .input-box {
@@ -72,8 +72,8 @@ main {
     outline: none;
 }
 
-.conta input::placeholder,
-.pessoas input::placeholder {
+.conta input ::placeholder,
+.pessoas input ::placeholder {
     color: var(--green-300);
 }
 
@@ -90,10 +90,9 @@ main {
 .gorjeta div {
     margin-top: 1rem;
 
-
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap:1rem;
 }
 
 .gorjeta input {
@@ -103,7 +102,7 @@ main {
     text-align: center;
     outline: none;
     padding-block: 0.4rem;
-    border-radius: 03125rem;
+    border-radius: 0.3125rem;
     background-color: var(--green-800);
     color: var(--white);
 }
@@ -125,7 +124,7 @@ main {
     color: var(--green-800);
 }
 
-.gorjeta#outra::placeholder {
+.gorjeta #outra ::placeholder {
     color: var(--green-300);
 }
 
@@ -140,7 +139,7 @@ main {
 }
 
 .pessoas #erro {
-   font-size: 0.75;
+   font-size: 0.75rem;
    color: var(--danger);
    font-weight: 700;
    display: none;
@@ -173,31 +172,31 @@ main {
     font-size: 2rem;
 }
 
-..resultados . gorjeta-total {
+.resultados .gorjeta-total {
     margin-bottom: 1.25rem;
 }
 
-.resultados . total {
+.resultados .total {
     margin-bottom: 2rem;
 }
 
 .resultados button {
     width: 100%;
-    background: var(--light-green);
+    background-color: var(--light-green);
     border: none;
-    border-radius: 0.3125;
+    border-radius: 0.3125rem;
     color: var(--green-800);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.25rem;
-    padding-block: 0.5rem;
+    padding-block: 0.25rem;
 }
 
-.conta input::-webkit-inner-spin-button,
-.pessoas input::-webkit-inner-spin-button,
-.gorjeta #outra::-webkit-inner-spin-button {
-    display: none;
-}
+    .conta input::-webkit-inner-spin-button,
+    .pessoas input::-webkit-inner-spin-button,
+    .gorjeta #outra::-webkit-inner-spin-button {
+        display: none;
+    }
 
 @media(min-width: 920px) {
     body {
